@@ -25,6 +25,10 @@ body {
   font-weight: bold;
   cursor: pointer;
   background-color: transparent;
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-15px);
 }
 .Container-Nav {
   display: flex;
@@ -102,6 +106,17 @@ input {
 }
 .big-banner {
   padding: 10px 0px 20px;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.big-banner::-webkit-scrollbar {
+  display: none;
+}
+.poster {
+  min-width: 100%;
+  scroll-snap-align: center;
 }
 .big-banner img {
   width: 100%;
@@ -463,9 +478,9 @@ input {
 }
 
 .hidden {
-    opacity: 0;
-    transform: translateY(30px);
-    transition:
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
     opacity 0.6s ease,
     transform 0.6s ease;
 }
