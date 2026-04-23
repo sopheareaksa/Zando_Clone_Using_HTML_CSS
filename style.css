@@ -490,3 +490,81 @@ input {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (min-width: 1300px) {
+  .Container-Nav {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 90px 0px;
+  }
+  .logo-img{
+    margin-right: 65px;
+  }
+  .bg{
+    padding: 0px 50px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .btn{
+    margin-top: 400px;
+  }
+  .banner{
+    padding: 0px 40px 0px;
+    justify-content: space-evenly;
+  }
+  .big-banner{
+    padding: 0px 90px 0px;
+    justify-content: space-evenly;
+  }
+  .text-card{
+    padding: 20px 90px 20px;
+    justify-content: space-between;
+  }
+  .card{
+    padding: 0px 40px 0px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .small-banner{
+    padding: 20px 90px 20px;
+    
+  }
+  .second-title{
+    padding: 20px 90px 20px;
+  }
+  .third-title{
+    padding: 30px 90px 20px;
+  }
+  .card1{
+    padding: 0px 40px 0px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer{
+    padding: 80px 90px 0px;
+    justify-content: space-between;
+  }
+  .Payment{
+    padding: 20px 90px 70px;
+  }
+  .hr{
+    margin: 0px 90px 0px;
+  }
+  .footer-text{
+    padding: 0px 90px 40px;
+  }
+  .main-img img{
+    width: 500px;
+    height: 680px;
+  }
+  .box2{
+    padding: 30px 90px 20px;
+  }
+  .similar-items h2{
+    padding: 20px 170px 20px;
+  }
+}
